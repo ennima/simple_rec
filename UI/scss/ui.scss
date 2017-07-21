@@ -1,0 +1,26 @@
+//Color palette
+$color1: #333;
+$color2: #fff;
+$color3: #944;
+$color4: #949;
+.channel{
+	background-color: $color1;
+	.channel_title{
+		color: $color2;
+	}
+	.channel_thumbnail{
+		background-color: $color3;
+	}
+	.clip_info{
+		background-color: $color4;
+	}
+	.clip_name_label{
+		color: $color2;
+	}
+	.clip_name{
+		background-color: $color3;
+	}
+	.record_controls{
+		background-color: $color4;
+	}
+}

@@ -1,0 +1,16 @@
+.channel {
+  background-color: #333; }
+  .channel .channel_title {
+    color: #fff; }
+  .channel .channel_thumbnail {
+    background-color: #944; }
+  .channel .clip_info {
+    background-color: #949; }
+  .channel .clip_name_label {
+    color: #fff; }
+  .channel .clip_name {
+    background-color: #944; }
+  .channel .record_controls {
+    background-color: #949; }
+
+/*# sourceMappingURL=ui.css.map */

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>DVC Pro Recorder</title>
+	<link rel="stylesheet" href="./css/vendor/normalize.css">
+	<link rel="stylesheet" href="./css/vendor/font-awesome.min.css">
+	<link rel="stylesheet" href="./css/ui.css">
+</head>
+<body>
+	
+	<div class="channel">
+		<div class="channel_title"><h3>Channel 1</h3></div>
+		<div class="channel_thumbnail">
+			<img src="./img/thumbnail.png" alt="">
+		</div>
+		<div class="clip_info">
+			<div class="clip_timecode">
+				<p>00:00:00.00</p>
+			</div>
+			<div class="rec_status">
+				<i class="fa fa-stop" aria-hidden="true"></i>
+			</div>
+		</div>
+		<div class="clip_name_label"><h4>Nombre:</h4></div>
+		<div class="clip_name">
+			<select>
+
+			   <option>Noticias 1900</option>
+
+			   <option>Noticias 2000</option>
+
+			   <option>Noticias 2100</option>
+			   <option>Con Puig a las Diez</option>
+
+			   <option>Noticias 2300</option>
+
+			</select>
+		</div>
+		<div class="record_controls">
+			<button id="channel1_rec_btn">Grabar</button>
+			<button id="channel1_stop_btn">Detener</button>
+		</div>
+	</div>
+	<script src="./js/vendor/jquery.min.js"></script>
+	<script src="./js/vendor/moment.js"></script>
+</body>
+</html>
